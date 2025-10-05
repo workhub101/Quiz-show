@@ -40,7 +40,7 @@
     </style>
 </head>
 <body>
-    <div class="centre">
+    <div class="centre mt-5">
     <div class="outer_div">
         <div class="centre mt-5">
             <h1>Game Over 🎮</h1>
@@ -51,7 +51,7 @@
         <div class="centre mx-1">
             <p id="message"></p>
         </div class = "mb-5 centre pe-5">
-        <div class="d-grid gap-2 col-2 mx-auto" >
+        <div class="d-grid gap-2 col-2 mx-auto pb-5" >
 
             <a href="./index.html"><button class="btn btn-primary" >Try Again</button></a>
         </div>
@@ -67,7 +67,7 @@
         }
          if(finalScore >= 20) {
             var perfectScoreMessage = document.getElementById("message")
-            perfectScoreMessage.innerHTML = `<p id="message"> Perfect score Excellent!&#128515</p>`
+            perfectScoreMessage.innerHTML = `<p id="message"> Perfect score Excellent! &#128515</p>`
         }
         if(finalScore > 5 && finalScore < 10 ) {
             var subParScoreMessage = document.getElementById("message")
@@ -75,7 +75,7 @@
         }
         if (finalScore > 10 && finalScore < 15){
              var averageScoreMessage = document.getElementById("message")
-            averageScoreMessage.innerHTML = `<p id="message">Good job but more work needs to be done! 	&#128528;</p>`
+            averageScoreMessage.innerHTML = `<p id="message">Good job but more work needs to be done! &#128528;</p>`
         }
         if (finalScore > 15 && finalScore < 20){
             var aboveScoreMessage = document.getElementById("message")
